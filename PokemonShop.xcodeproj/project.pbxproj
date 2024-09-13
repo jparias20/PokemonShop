@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		641910752C948E70000C8F52 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910742C948E70000C8F52 /* LoadingView.swift */; };
+		641910772C949552000C8F52 /* AuthenticationTextFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910762C949552000C8F52 /* AuthenticationTextFieldsView.swift */; };
+		6419107A2C9495D5000C8F52 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910792C9495D5000C8F52 /* SignUpView.swift */; };
 		646F0E322C9486A00050FB2B /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E312C9486A00050FB2B /* AuthenticationService.swift */; };
 		646F0E342C9486B50050FB2B /* FirebaseUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E332C9486B50050FB2B /* FirebaseUtility.swift */; };
 		646F0E3A2C9489F20050FB2B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E392C9489F20050FB2B /* User.swift */; };
@@ -26,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		641910742C948E70000C8F52 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		641910762C949552000C8F52 /* AuthenticationTextFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTextFieldsView.swift; sourceTree = "<group>"; };
+		641910792C9495D5000C8F52 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		646F0E312C9486A00050FB2B /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		646F0E332C9486B50050FB2B /* FirebaseUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtility.swift; sourceTree = "<group>"; };
 		646F0E392C9489F20050FB2B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -54,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		641910782C9495C6000C8F52 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				641910792C9495D5000C8F52 /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		646F0E302C94866D0050FB2B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +144,7 @@
 		647A33062C937F4A0011142B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				641910782C9495C6000C8F52 /* SignUp */,
 				647A330A2C9382180011142B /* SignIn */,
 			);
 			path = Modules;
@@ -174,6 +187,7 @@
 				64D746F32C93865B007FC094 /* MainButtonView.swift */,
 				64D746F82C938C44007FC094 /* CustomAlertView.swift */,
 				641910742C948E70000C8F52 /* LoadingView.swift */,
+				641910762C949552000C8F52 /* AuthenticationTextFieldsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,6 +301,8 @@
 				647A330C2C93822B0011142B /* SignInView.swift in Sources */,
 				647A32EC2C937CB80011142B /* App.swift in Sources */,
 				646F0E342C9486B50050FB2B /* FirebaseUtility.swift in Sources */,
+				6419107A2C9495D5000C8F52 /* SignUpView.swift in Sources */,
+				641910772C949552000C8F52 /* AuthenticationTextFieldsView.swift in Sources */,
 				646F0E322C9486A00050FB2B /* AuthenticationService.swift in Sources */,
 				646F0E3A2C9489F20050FB2B /* User.swift in Sources */,
 				646F0E3C2C948C0E0050FB2B /* AuthenticationUtility.swift in Sources */,

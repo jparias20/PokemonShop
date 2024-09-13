@@ -9,7 +9,7 @@ struct App: SwiftUI.App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                SignInView()
+                SignUpView()
             }
             .environmentObject(authenticationService)
         }
