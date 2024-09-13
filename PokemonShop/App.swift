@@ -8,8 +8,13 @@ struct App: SwiftUI.App {
 
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                SignUpView()
+            Group {
+                switch authenticationService.user {
+                case .none:
+                    SplashView()
+                case .some:
+                    Text("There is user")
+                }
             }
             .environmentObject(authenticationService)
         }
