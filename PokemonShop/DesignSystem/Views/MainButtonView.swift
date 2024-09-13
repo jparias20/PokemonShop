@@ -3,7 +3,7 @@ import SwiftUI
 struct MainButtonView: View {
     let title: String
     let actionCompletion: CompletionBlock
-    
+
     var body: some View {
         Button {
             actionCompletion()

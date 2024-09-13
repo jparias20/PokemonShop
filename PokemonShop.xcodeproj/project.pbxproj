@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641910752C948E70000C8F52 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910742C948E70000C8F52 /* LoadingView.swift */; };
+		646F0E322C9486A00050FB2B /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E312C9486A00050FB2B /* AuthenticationService.swift */; };
+		646F0E342C9486B50050FB2B /* FirebaseUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E332C9486B50050FB2B /* FirebaseUtility.swift */; };
+		646F0E3A2C9489F20050FB2B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E392C9489F20050FB2B /* User.swift */; };
+		646F0E3C2C948C0E0050FB2B /* AuthenticationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E3B2C948C0E0050FB2B /* AuthenticationUtility.swift */; };
 		647A32EC2C937CB80011142B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647A32EB2C937CB80011142B /* App.swift */; };
-		647A32EE2C937CB80011142B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647A32ED2C937CB80011142B /* ContentView.swift */; };
 		647A32F02C937CB90011142B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647A32EF2C937CB90011142B /* Assets.xcassets */; };
 		647A32FB2C937D750011142B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 647A32FA2C937D750011142B /* FirebaseAuth */; };
 		647A32FD2C937D750011142B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 647A32FC2C937D750011142B /* FirebaseStorage */; };
@@ -16,20 +20,24 @@
 		647A33022C937DFC0011142B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647A33012C937DFC0011142B /* AppDelegate.swift */; };
 		647A330C2C93822B0011142B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647A330B2C93822B0011142B /* SignInView.swift */; };
 		64D746F42C93865B007FC094 /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D746F32C93865B007FC094 /* MainButtonView.swift */; };
-		64D746F62C93869B007FC094 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D746F52C93869B007FC094 /* TypeAlias.swift */; };
+		64D746F62C93869B007FC094 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D746F52C93869B007FC094 /* Typealias.swift */; };
 		64D746F92C938C44007FC094 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D746F82C938C44007FC094 /* CustomAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		641910742C948E70000C8F52 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		646F0E312C9486A00050FB2B /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		646F0E332C9486B50050FB2B /* FirebaseUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtility.swift; sourceTree = "<group>"; };
+		646F0E392C9489F20050FB2B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		646F0E3B2C948C0E0050FB2B /* AuthenticationUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationUtility.swift; sourceTree = "<group>"; };
 		647A32E82C937CB80011142B /* PokemonShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647A32EB2C937CB80011142B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		647A32ED2C937CB80011142B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		647A32EF2C937CB90011142B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		647A32FF2C937DEA0011142B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		647A33012C937DFC0011142B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		647A330B2C93822B0011142B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		64D746F32C93865B007FC094 /* MainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
-		64D746F52C93869B007FC094 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		64D746F52C93869B007FC094 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		64D746F82C938C44007FC094 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,6 +54,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		646F0E302C94866D0050FB2B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				64D746F52C93869B007FC094 /* Typealias.swift */,
+				647A33092C937F640011142B /* Extensions */,
+				646F0E382C9489E30050FB2B /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		646F0E352C9487C80050FB2B /* AuthenticationUtility */ = {
+			isa = PBXGroup;
+			children = (
+				646F0E3B2C948C0E0050FB2B /* AuthenticationUtility.swift */,
+				646F0E332C9486B50050FB2B /* FirebaseUtility.swift */,
+			);
+			path = AuthenticationUtility;
+			sourceTree = "<group>";
+		};
+		646F0E382C9489E30050FB2B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				646F0E392C9489F20050FB2B /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		647A32DF2C937CB80011142B = {
 			isa = PBXGroup;
 			children = (
@@ -67,10 +102,10 @@
 			children = (
 				647A32EB2C937CB80011142B /* App.swift */,
 				647A33012C937DFC0011142B /* AppDelegate.swift */,
-				647A32ED2C937CB80011142B /* ContentView.swift */,
 				647A33052C937F320011142B /* DesignSystem */,
 				647A33062C937F4A0011142B /* Modules */,
 				647A33072C937F530011142B /* Services */,
+				646F0E302C94866D0050FB2B /* Shared */,
 				647A32FE2C937DCF0011142B /* SupportingFiles */,
 				647A33082C937F5B0011142B /* Utilities */,
 			);
@@ -88,8 +123,8 @@
 		647A33052C937F320011142B /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				64D746F72C938C28007FC094 /* Views */,
 				647A32EF2C937CB90011142B /* Assets.xcassets */,
+				64D746F72C938C28007FC094 /* Views */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -105,6 +140,7 @@
 		647A33072C937F530011142B /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				646F0E312C9486A00050FB2B /* AuthenticationService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -112,8 +148,7 @@
 		647A33082C937F5B0011142B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				647A33092C937F640011142B /* Extensions */,
-				64D746F52C93869B007FC094 /* TypeAlias.swift */,
+				646F0E352C9487C80050FB2B /* AuthenticationUtility */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -138,6 +173,7 @@
 			children = (
 				64D746F32C93865B007FC094 /* MainButtonView.swift */,
 				64D746F82C938C44007FC094 /* CustomAlertView.swift */,
+				641910742C948E70000C8F52 /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 647A32F62C937CB90011142B /* Build configuration list for PBXNativeTarget "PokemonShop" */;
 			buildPhases = (
+				64D746FA2C946351007FC094 /* Swiftlint */,
 				647A32E42C937CB80011142B /* Sources */,
 				647A32E52C937CB80011142B /* Frameworks */,
 				647A32E62C937CB80011142B /* Resources */,
@@ -214,18 +251,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64D746FA2C946351007FC094 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT\"/Scripts/swiftlint.sh \n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		647A32E42C937CB80011142B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64D746F62C93869B007FC094 /* TypeAlias.swift in Sources */,
+				64D746F62C93869B007FC094 /* Typealias.swift in Sources */,
 				64D746F92C938C44007FC094 /* CustomAlertView.swift in Sources */,
 				647A33022C937DFC0011142B /* AppDelegate.swift in Sources */,
-				647A32EE2C937CB80011142B /* ContentView.swift in Sources */,
+				641910752C948E70000C8F52 /* LoadingView.swift in Sources */,
 				64D746F42C93865B007FC094 /* MainButtonView.swift in Sources */,
 				647A330C2C93822B0011142B /* SignInView.swift in Sources */,
 				647A32EC2C937CB80011142B /* App.swift in Sources */,
+				646F0E342C9486B50050FB2B /* FirebaseUtility.swift in Sources */,
+				646F0E322C9486A00050FB2B /* AuthenticationService.swift in Sources */,
+				646F0E3A2C9489F20050FB2B /* User.swift in Sources */,
+				646F0E3C2C948C0E0050FB2B /* AuthenticationUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +424,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EU4JV98CMP;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -392,6 +457,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EU4JV98CMP;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

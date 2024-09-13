@@ -11,17 +11,17 @@ struct CustomAlertConfig: Identifiable {
     let message: String
     var primaryConfig = CustomAlertViewAction()
     var secondaryConfig: CustomAlertViewAction?
-    
+
     func alertView() -> Alert {
         if let secondaryConfig {
             let primaryButton: Alert.Button = .default(Text(primaryConfig.title)) {
                 primaryConfig.action?()
             }
-            
+
             let secondaryButton: Alert.Button = .cancel(Text(secondaryConfig.title)) {
                 secondaryConfig.action?()
             }
-            
+
             return Alert(
                 title: Text(title),
                 message: Text(message),
@@ -29,11 +29,11 @@ struct CustomAlertConfig: Identifiable {
                 secondaryButton: secondaryButton
             )
         }
-        
+
         let primaryButton: Alert.Button = .cancel(Text(primaryConfig.title)) {
             primaryConfig.action?()
         }
-        
+
         return Alert(
             title: Text(title),
             message: Text(message),
@@ -50,7 +50,7 @@ extension View {
 
 private struct CustomAlertView: ViewModifier {
     @Binding var alertConfig: CustomAlertConfig?
-    
+
     func body(content: Content) -> some View {
         content
             .alert(item: $alertConfig) { $0.alertView() }
