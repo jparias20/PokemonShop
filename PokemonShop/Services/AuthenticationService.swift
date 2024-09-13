@@ -10,6 +10,11 @@ final class AuthenticationService: ObservableObject {
     }
     
     @MainActor
+    func fetchUser() async {
+        user = try? await authenticationUtility.fetchUser()
+    }
+    
+    @MainActor
     func signUp(_ email: String, password: String) async throws {
         user = try await authenticationUtility.signUp(email, password: password)
     }
