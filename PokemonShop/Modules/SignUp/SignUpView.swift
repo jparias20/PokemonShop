@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SignInView: View {
+struct SignUpView: View {
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var isLoading: Bool = false
@@ -10,16 +10,20 @@ struct SignInView: View {
         
     var body: some View {
         VStack {
+            Spacer()
             HeaderView()
             AuthenticationTextFieldsView(email: $email, password: $password)
-            MainButtonView(title: "Sign In") { signIn() }
+            MainButtonView(title: "Sign Up") { signUp() }
+            Spacer()
+            Text("Create a new acount")
+                .font(.footnote)
         }
         .loadingView(isPresented: $isLoading)
         .customAlertView(item: $alertConfig)
         .padding()
     }
     
-    private func signIn() {
+    private func signUp() {
         Task { @MainActor in
             defer {
                 isLoading = false
@@ -37,7 +41,7 @@ struct SignInView: View {
                 }
                 
                 isLoading = true
-                try await authenticationService.signIn(email, password: password)
+                try await authenticationService.signUp(email, password: password)
             } catch let error as AuthenticationUtilityError {
                 alertConfig = CustomAlertConfig(message: error.message)
             }
@@ -52,12 +56,12 @@ private struct HeaderView: View {
                 .font(.title)
                 .bold()
 
-            Text("Sign in")
+            Text("Sign Up")
         }
     }
 }
 
 #Preview {
-    SignInView()
+    SignUpView()
         .environmentObject(AuthenticationService())
 }

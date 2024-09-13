@@ -1,6 +1,7 @@
 import Foundation
 
 protocol AuthenticationUtility {
+    func signUp(_ email: String, password: String) async throws -> User
     func signIn(_ email: String, password: String) async throws -> User
 }
 
