@@ -12,6 +12,21 @@
 		6419107A2C9495D5000C8F52 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910792C9495D5000C8F52 /* SignUpView.swift */; };
 		6419107D2C9497E4000C8F52 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6419107C2C9497E4000C8F52 /* SplashView.swift */; };
 		641910802C94A10C000C8F52 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6419107F2C94A10C000C8F52 /* FirebaseFirestore */; };
+		641910AE2C94DE66000C8F52 /* NetworkingFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 641910AD2C94DE66000C8F52 /* NetworkingFramework */; };
+		641910B02C94DE91000C8F52 /* PokemonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910AF2C94DE91000C8F52 /* PokemonService.swift */; };
+		641910B62C94DEF5000C8F52 /* PokemonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910B52C94DEF5000C8F52 /* PokemonResponse.swift */; };
+		641910B82C94DF44000C8F52 /* PokemonHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910B72C94DF44000C8F52 /* PokemonHTTPRequest.swift */; };
+		641910BB2C94E095000C8F52 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910BA2C94E095000C8F52 /* HomeView.swift */; };
+		641910BF2C94E160000C8F52 /* PokemonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910BE2C94E160000C8F52 /* PokemonUtility.swift */; };
+		641910C12C94E210000C8F52 /* PokemonUtilityImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910C02C94E210000C8F52 /* PokemonUtilityImpl.swift */; };
+		641910C32C94E290000C8F52 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910C22C94E290000C8F52 /* Pokemon.swift */; };
+		641910C62C94E733000C8F52 /* LocalFileManagerFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 641910C52C94E733000C8F52 /* LocalFileManagerFramework */; };
+		641910C92C94E928000C8F52 /* LocalFileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910C82C94E928000C8F52 /* LocalFileUtility.swift */; };
+		641910CB2C94E970000C8F52 /* LocalFileUtilityImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910CA2C94E970000C8F52 /* LocalFileUtilityImpl.swift */; };
+		641910CD2C94EB7B000C8F52 /* ImageServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910CC2C94EB7B000C8F52 /* ImageServiceError.swift */; };
+		641910D02C94EE26000C8F52 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910CF2C94EE26000C8F52 /* ImageService.swift */; };
+		641910D32C94EEBF000C8F52 /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910D22C94EEBF000C8F52 /* ImageUtility.swift */; };
+		641910D52C94EEDA000C8F52 /* ImageUtilityImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910D42C94EEDA000C8F52 /* ImageUtilityImpl.swift */; };
 		646F0E322C9486A00050FB2B /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E312C9486A00050FB2B /* AuthenticationService.swift */; };
 		646F0E342C9486B50050FB2B /* FirebaseUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E332C9486B50050FB2B /* FirebaseUtility.swift */; };
 		646F0E3A2C9489F20050FB2B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E392C9489F20050FB2B /* User.swift */; };
@@ -32,6 +47,19 @@
 		641910762C949552000C8F52 /* AuthenticationTextFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTextFieldsView.swift; sourceTree = "<group>"; };
 		641910792C9495D5000C8F52 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		6419107C2C9497E4000C8F52 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		641910AF2C94DE91000C8F52 /* PokemonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonService.swift; sourceTree = "<group>"; };
+		641910B52C94DEF5000C8F52 /* PokemonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonResponse.swift; sourceTree = "<group>"; };
+		641910B72C94DF44000C8F52 /* PokemonHTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonHTTPRequest.swift; sourceTree = "<group>"; };
+		641910BA2C94E095000C8F52 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		641910BE2C94E160000C8F52 /* PokemonUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonUtility.swift; sourceTree = "<group>"; };
+		641910C02C94E210000C8F52 /* PokemonUtilityImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonUtilityImpl.swift; sourceTree = "<group>"; };
+		641910C22C94E290000C8F52 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		641910C82C94E928000C8F52 /* LocalFileUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileUtility.swift; sourceTree = "<group>"; };
+		641910CA2C94E970000C8F52 /* LocalFileUtilityImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileUtilityImpl.swift; sourceTree = "<group>"; };
+		641910CC2C94EB7B000C8F52 /* ImageServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageServiceError.swift; sourceTree = "<group>"; };
+		641910CF2C94EE26000C8F52 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		641910D22C94EEBF000C8F52 /* ImageUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtility.swift; sourceTree = "<group>"; };
+		641910D42C94EEDA000C8F52 /* ImageUtilityImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtilityImpl.swift; sourceTree = "<group>"; };
 		646F0E312C9486A00050FB2B /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		646F0E332C9486B50050FB2B /* FirebaseUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtility.swift; sourceTree = "<group>"; };
 		646F0E392C9489F20050FB2B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -53,7 +81,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				647A32FB2C937D750011142B /* FirebaseAuth in Frameworks */,
+				641910C62C94E733000C8F52 /* LocalFileManagerFramework in Frameworks */,
 				641910802C94A10C000C8F52 /* FirebaseFirestore in Frameworks */,
+				641910AE2C94DE66000C8F52 /* NetworkingFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +111,69 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		641910B12C94DEC0000C8F52 /* PokemonService */ = {
+			isa = PBXGroup;
+			children = (
+				641910C22C94E290000C8F52 /* Pokemon.swift */,
+				641910AF2C94DE91000C8F52 /* PokemonService.swift */,
+			);
+			path = PokemonService;
+			sourceTree = "<group>";
+		};
+		641910B92C94E086000C8F52 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				641910BA2C94E095000C8F52 /* HomeView.swift */,
+				641910BC2C94E0D5000C8F52 /* Models */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		641910BC2C94E0D5000C8F52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		641910BD2C94E13C000C8F52 /* PokemonUtility */ = {
+			isa = PBXGroup;
+			children = (
+				641910B72C94DF44000C8F52 /* PokemonHTTPRequest.swift */,
+				641910B52C94DEF5000C8F52 /* PokemonResponse.swift */,
+				641910BE2C94E160000C8F52 /* PokemonUtility.swift */,
+				641910C02C94E210000C8F52 /* PokemonUtilityImpl.swift */,
+			);
+			path = PokemonUtility;
+			sourceTree = "<group>";
+		};
+		641910C72C94E914000C8F52 /* LocalFileUtility */ = {
+			isa = PBXGroup;
+			children = (
+				641910C82C94E928000C8F52 /* LocalFileUtility.swift */,
+				641910CA2C94E970000C8F52 /* LocalFileUtilityImpl.swift */,
+			);
+			path = LocalFileUtility;
+			sourceTree = "<group>";
+		};
+		641910CE2C94EE02000C8F52 /* ImageService */ = {
+			isa = PBXGroup;
+			children = (
+				641910CF2C94EE26000C8F52 /* ImageService.swift */,
+				641910CC2C94EB7B000C8F52 /* ImageServiceError.swift */,
+			);
+			path = ImageService;
+			sourceTree = "<group>";
+		};
+		641910D12C94EEA3000C8F52 /* ImageUtility */ = {
+			isa = PBXGroup;
+			children = (
+				641910D22C94EEBF000C8F52 /* ImageUtility.swift */,
+				641910D42C94EEDA000C8F52 /* ImageUtilityImpl.swift */,
+			);
+			path = ImageUtility;
 			sourceTree = "<group>";
 		};
 		646F0E302C94866D0050FB2B /* Shared */ = {
@@ -162,9 +255,10 @@
 		647A33062C937F4A0011142B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				6419107B2C9497D9000C8F52 /* Splash */,
-				641910782C9495C6000C8F52 /* SignUp */,
+				641910B92C94E086000C8F52 /* Home */,
 				647A330A2C9382180011142B /* SignIn */,
+				641910782C9495C6000C8F52 /* SignUp */,
+				6419107B2C9497D9000C8F52 /* Splash */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -173,6 +267,8 @@
 			isa = PBXGroup;
 			children = (
 				646F0E312C9486A00050FB2B /* AuthenticationService.swift */,
+				641910CE2C94EE02000C8F52 /* ImageService */,
+				641910B12C94DEC0000C8F52 /* PokemonService */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -181,6 +277,9 @@
 			isa = PBXGroup;
 			children = (
 				646F0E352C9487C80050FB2B /* AuthenticationUtility */,
+				641910D12C94EEA3000C8F52 /* ImageUtility */,
+				641910C72C94E914000C8F52 /* LocalFileUtility */,
+				641910BD2C94E13C000C8F52 /* PokemonUtility */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -231,6 +330,8 @@
 			packageProductDependencies = (
 				647A32FA2C937D750011142B /* FirebaseAuth */,
 				6419107F2C94A10C000C8F52 /* FirebaseFirestore */,
+				641910AD2C94DE66000C8F52 /* NetworkingFramework */,
+				641910C52C94E733000C8F52 /* LocalFileManagerFramework */,
 			);
 			productName = PokemonShop;
 			productReference = 647A32E82C937CB80011142B /* PokemonShop.app */;
@@ -262,6 +363,8 @@
 			mainGroup = 647A32DF2C937CB80011142B;
 			packageReferences = (
 				647A32F92C937D750011142B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				641910AC2C94DE66000C8F52 /* XCRemoteSwiftPackageReference "NetworkingFramework" */,
+				641910C42C94E733000C8F52 /* XCRemoteSwiftPackageReference "LocalFileManagerFramework-iOS" */,
 			);
 			productRefGroup = 647A32E92C937CB80011142B /* Products */;
 			projectDirPath = "";
@@ -313,19 +416,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				64D746F62C93869B007FC094 /* Typealias.swift in Sources */,
+				641910B82C94DF44000C8F52 /* PokemonHTTPRequest.swift in Sources */,
 				64D746F92C938C44007FC094 /* CustomAlertView.swift in Sources */,
 				647A33022C937DFC0011142B /* AppDelegate.swift in Sources */,
 				641910752C948E70000C8F52 /* LoadingView.swift in Sources */,
 				64D746F42C93865B007FC094 /* MainButtonView.swift in Sources */,
+				641910C12C94E210000C8F52 /* PokemonUtilityImpl.swift in Sources */,
+				641910B02C94DE91000C8F52 /* PokemonService.swift in Sources */,
+				641910CD2C94EB7B000C8F52 /* ImageServiceError.swift in Sources */,
 				647A330C2C93822B0011142B /* SignInView.swift in Sources */,
+				641910B62C94DEF5000C8F52 /* PokemonResponse.swift in Sources */,
+				641910BB2C94E095000C8F52 /* HomeView.swift in Sources */,
 				647A32EC2C937CB80011142B /* App.swift in Sources */,
 				646F0E342C9486B50050FB2B /* FirebaseUtility.swift in Sources */,
 				6419107A2C9495D5000C8F52 /* SignUpView.swift in Sources */,
+				641910C32C94E290000C8F52 /* Pokemon.swift in Sources */,
 				641910772C949552000C8F52 /* AuthenticationTextFieldsView.swift in Sources */,
 				646F0E322C9486A00050FB2B /* AuthenticationService.swift in Sources */,
 				646F0E3A2C9489F20050FB2B /* User.swift in Sources */,
 				646F0E3C2C948C0E0050FB2B /* AuthenticationUtility.swift in Sources */,
 				6419107D2C9497E4000C8F52 /* SplashView.swift in Sources */,
+				641910CB2C94E970000C8F52 /* LocalFileUtilityImpl.swift in Sources */,
+				641910D52C94EEDA000C8F52 /* ImageUtilityImpl.swift in Sources */,
+				641910D32C94EEBF000C8F52 /* ImageUtility.swift in Sources */,
+				641910C92C94E928000C8F52 /* LocalFileUtility.swift in Sources */,
+				641910D02C94EE26000C8F52 /* ImageService.swift in Sources */,
+				641910BF2C94E160000C8F52 /* PokemonUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +657,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		641910AC2C94DE66000C8F52 /* XCRemoteSwiftPackageReference "NetworkingFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:jparias20/NetworkingFramework.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		641910C42C94E733000C8F52 /* XCRemoteSwiftPackageReference "LocalFileManagerFramework-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:jparias20/LocalFileManagerFramework-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		647A32F92C937D750011142B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -556,6 +688,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 647A32F92C937D750011142B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		641910AD2C94DE66000C8F52 /* NetworkingFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 641910AC2C94DE66000C8F52 /* XCRemoteSwiftPackageReference "NetworkingFramework" */;
+			productName = NetworkingFramework;
+		};
+		641910C52C94E733000C8F52 /* LocalFileManagerFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 641910C42C94E733000C8F52 /* XCRemoteSwiftPackageReference "LocalFileManagerFramework-iOS" */;
+			productName = LocalFileManagerFramework;
 		};
 		647A32FA2C937D750011142B /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
