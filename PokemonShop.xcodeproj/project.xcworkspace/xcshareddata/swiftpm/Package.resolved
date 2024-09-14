@@ -1,5 +1,5 @@
 {
-  "originHash" : "c63c63846d9c539229e96de38d6af51417e28c0ee9a0bc48bd0f0f19d923c329",
+  "originHash" : "311e224fbbc5e23f50481917c899cf61e395b940f2e4b07f6cb50b382849e9e0",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -92,12 +92,30 @@
       }
     },
     {
+      "identity" : "localfilemanagerframework-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:jparias20/LocalFileManagerFramework-iOS.git",
+      "state" : {
+        "revision" : "35188b97c2f84170b889066c77f0706496855ffd",
+        "version" : "1.1.0"
+      }
+    },
+    {
       "identity" : "nanopb",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/nanopb.git",
       "state" : {
         "revision" : "b7e1104502eca3a213b46303391ca4d3bc8ddec1",
         "version" : "2.30910.0"
+      }
+    },
+    {
+      "identity" : "networkingframework",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:jparias20/NetworkingFramework.git",
+      "state" : {
+        "revision" : "09bb8bfb5f305da5e608c2421137d1b11d5b8d5e",
+        "version" : "1.0.0"
       }
     },
     {

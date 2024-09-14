@@ -5,6 +5,7 @@ struct App: SwiftUI.App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     @StateObject private var authenticationService = AuthenticationService()
+    @StateObject private var imageService = ImageService()
 
     var body: some Scene {
         WindowGroup {
@@ -13,10 +14,11 @@ struct App: SwiftUI.App {
                 case .none:
                     SplashView()
                 case .some:
-                    Text("There is user")
+                    HomeView()
                 }
             }
             .environmentObject(authenticationService)
+            .environmentObject(imageService)
         }
     }
 }

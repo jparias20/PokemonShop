@@ -3,7 +3,7 @@ import FirebaseAuth
 import FirebaseFirestore
 import Foundation
 
-final class FirebaseUtility: AuthenticationUtility {
+struct FirebaseUtility: AuthenticationUtility {
     private var firestore: Firestore { Firestore.firestore() }
     
     func fetchUser() async throws -> User? {
