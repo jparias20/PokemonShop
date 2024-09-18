@@ -1,2 +1,2 @@
 # PokemonShop
-[Image](READMEHelper/terminal_access.png)
+![Image](READMEHelper/terminal_access.png)
