@@ -6,7 +6,7 @@ final class PokemonUtilityImpl {
     private let httpClient: HTTPClient
     private var offset: Int
     
-    init(httpClient: HTTPClient = HTTPClientImpl()) {
+    init(httpClient: HTTPClient = HTTPClientImpl(urlSession: URLSessionImpl(configuration: .ephemeral))) {
         self.offset = 0
         self.limit = 20
         self.httpClient = httpClient

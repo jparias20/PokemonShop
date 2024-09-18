@@ -114,8 +114,8 @@
       "kind" : "remoteSourceControl",
       "location" : "git@github.com:jparias20/NetworkingFramework.git",
       "state" : {
-        "revision" : "09bb8bfb5f305da5e608c2421137d1b11d5b8d5e",
-        "version" : "1.0.0"
+        "revision" : "f25ac67db435a9cb389caf76538ed041cedf5331",
+        "version" : "1.0.1"
       }
     },
     {

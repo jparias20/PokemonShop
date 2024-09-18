@@ -11,7 +11,7 @@ struct FirebaseUtility: AuthenticationUtility {
             guard let currentUser: FirebaseAuth.User = Auth.auth().currentUser else { return nil }
             guard let email = currentUser.email else { return nil }
 
-            _ = try await currentUser.getIDTokenResult(forcingRefresh: true)
+//            _ = try await currentUser.getIDTokenResult(forcingRefresh: true)
             let uid: String = currentUser.uid
             let name: String? = currentUser.displayName
             return User(email: email, uid: uid, name: name)

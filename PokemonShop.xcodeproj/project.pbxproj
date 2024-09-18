@@ -27,6 +27,7 @@
 		641910D02C94EE26000C8F52 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910CF2C94EE26000C8F52 /* ImageService.swift */; };
 		641910D32C94EEBF000C8F52 /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910D22C94EEBF000C8F52 /* ImageUtility.swift */; };
 		641910D52C94EEDA000C8F52 /* ImageUtilityImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641910D42C94EEDA000C8F52 /* ImageUtilityImpl.swift */; };
+		64292C6C2C9B1B7000AF3B6B /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64292C6B2C9B1B7000AF3B6B /* TestFile.swift */; };
 		646F0E322C9486A00050FB2B /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E312C9486A00050FB2B /* AuthenticationService.swift */; };
 		646F0E342C9486B50050FB2B /* FirebaseUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E332C9486B50050FB2B /* FirebaseUtility.swift */; };
 		646F0E3A2C9489F20050FB2B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F0E392C9489F20050FB2B /* User.swift */; };
@@ -40,6 +41,10 @@
 		64D746F42C93865B007FC094 /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D746F32C93865B007FC094 /* MainButtonView.swift */; };
 		64D746F62C93869B007FC094 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D746F52C93869B007FC094 /* Typealias.swift */; };
 		64D746F92C938C44007FC094 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D746F82C938C44007FC094 /* CustomAlertView.swift */; };
+		64DBF7FF2C962B7400A72B74 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DBF7FE2C962B7400A72B74 /* PokemonModel.swift */; };
+		64DBF8012C962BBB00A72B74 /* SchemaV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DBF8002C962BBB00A72B74 /* SchemaV1.swift */; };
+		64DBF8032C962E1100A72B74 /* PersistenceUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DBF8022C962E1100A72B74 /* PersistenceUtility.swift */; };
+		64DBF8052C962E6700A72B74 /* SwiftDataImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DBF8042C962E6700A72B74 /* SwiftDataImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +65,7 @@
 		641910CF2C94EE26000C8F52 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		641910D22C94EEBF000C8F52 /* ImageUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtility.swift; sourceTree = "<group>"; };
 		641910D42C94EEDA000C8F52 /* ImageUtilityImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtilityImpl.swift; sourceTree = "<group>"; };
+		64292C6B2C9B1B7000AF3B6B /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 		646F0E312C9486A00050FB2B /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		646F0E332C9486B50050FB2B /* FirebaseUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtility.swift; sourceTree = "<group>"; };
 		646F0E392C9489F20050FB2B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -73,6 +79,10 @@
 		64D746F32C93865B007FC094 /* MainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
 		64D746F52C93869B007FC094 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		64D746F82C938C44007FC094 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		64DBF7FE2C962B7400A72B74 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
+		64DBF8002C962BBB00A72B74 /* SchemaV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemaV1.swift; sourceTree = "<group>"; };
+		64DBF8022C962E1100A72B74 /* PersistenceUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceUtility.swift; sourceTree = "<group>"; };
+		64DBF8042C962E6700A72B74 /* SwiftDataImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				641910BA2C94E095000C8F52 /* HomeView.swift */,
+				64292C6B2C9B1B7000AF3B6B /* TestFile.swift */,
 				641910BC2C94E0D5000C8F52 /* Models */,
 			);
 			path = Home;
@@ -279,6 +290,7 @@
 				646F0E352C9487C80050FB2B /* AuthenticationUtility */,
 				641910D12C94EEA3000C8F52 /* ImageUtility */,
 				641910C72C94E914000C8F52 /* LocalFileUtility */,
+				64DBF7FA2C962AC700A72B74 /* PersistenceUtility */,
 				641910BD2C94E13C000C8F52 /* PokemonUtility */,
 			);
 			path = Utilities;
@@ -308,6 +320,25 @@
 				641910762C949552000C8F52 /* AuthenticationTextFieldsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		64DBF7FA2C962AC700A72B74 /* PersistenceUtility */ = {
+			isa = PBXGroup;
+			children = (
+				64DBF8022C962E1100A72B74 /* PersistenceUtility.swift */,
+				64DBF8042C962E6700A72B74 /* SwiftDataImpl.swift */,
+				64DBF7FD2C962B6900A72B74 /* Models */,
+			);
+			path = PersistenceUtility;
+			sourceTree = "<group>";
+		};
+		64DBF7FD2C962B6900A72B74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64DBF7FE2C962B7400A72B74 /* PokemonModel.swift */,
+				64DBF8002C962BBB00A72B74 /* SchemaV1.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,12 +447,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				64D746F62C93869B007FC094 /* Typealias.swift in Sources */,
+				64DBF8032C962E1100A72B74 /* PersistenceUtility.swift in Sources */,
 				641910B82C94DF44000C8F52 /* PokemonHTTPRequest.swift in Sources */,
 				64D746F92C938C44007FC094 /* CustomAlertView.swift in Sources */,
 				647A33022C937DFC0011142B /* AppDelegate.swift in Sources */,
 				641910752C948E70000C8F52 /* LoadingView.swift in Sources */,
 				64D746F42C93865B007FC094 /* MainButtonView.swift in Sources */,
+				64DBF8052C962E6700A72B74 /* SwiftDataImpl.swift in Sources */,
 				641910C12C94E210000C8F52 /* PokemonUtilityImpl.swift in Sources */,
+				64292C6C2C9B1B7000AF3B6B /* TestFile.swift in Sources */,
 				641910B02C94DE91000C8F52 /* PokemonService.swift in Sources */,
 				641910CD2C94EB7B000C8F52 /* ImageServiceError.swift in Sources */,
 				647A330C2C93822B0011142B /* SignInView.swift in Sources */,
@@ -432,6 +466,7 @@
 				6419107A2C9495D5000C8F52 /* SignUpView.swift in Sources */,
 				641910C32C94E290000C8F52 /* Pokemon.swift in Sources */,
 				641910772C949552000C8F52 /* AuthenticationTextFieldsView.swift in Sources */,
+				64DBF7FF2C962B7400A72B74 /* PokemonModel.swift in Sources */,
 				646F0E322C9486A00050FB2B /* AuthenticationService.swift in Sources */,
 				646F0E3A2C9489F20050FB2B /* User.swift in Sources */,
 				646F0E3C2C948C0E0050FB2B /* AuthenticationUtility.swift in Sources */,
@@ -440,6 +475,7 @@
 				641910D52C94EEDA000C8F52 /* ImageUtilityImpl.swift in Sources */,
 				641910D32C94EEBF000C8F52 /* ImageUtility.swift in Sources */,
 				641910C92C94E928000C8F52 /* LocalFileUtility.swift in Sources */,
+				64DBF8012C962BBB00A72B74 /* SchemaV1.swift in Sources */,
 				641910D02C94EE26000C8F52 /* ImageService.swift in Sources */,
 				641910BF2C94E160000C8F52 /* PokemonUtility.swift in Sources */,
 			);
@@ -662,7 +698,7 @@
 			repositoryURL = "git@github.com:jparias20/NetworkingFramework.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.1;
 			};
 		};
 		641910C42C94E733000C8F52 /* XCRemoteSwiftPackageReference "LocalFileManagerFramework-iOS" */ = {

@@ -5,6 +5,7 @@ struct SignUpView: View {
     @State private var password: String = ""
     @State private var isLoading: Bool = false
     @State private var alertConfig: CustomAlertConfig?
+    @State private var interactiveDismissDisabled: Bool = false
     
     @EnvironmentObject private var authenticationService: AuthenticationService
         
@@ -18,15 +19,17 @@ struct SignUpView: View {
             Text("Create a new acount")
                 .font(.footnote)
         }
+        .padding()
+        .interactiveDismissDisabled(interactiveDismissDisabled)
         .loadingView(isPresented: $isLoading)
         .customAlertView(item: $alertConfig)
-        .padding()
     }
     
     private func signUp() {
         Task { @MainActor in
             defer {
                 isLoading = false
+                interactiveDismissDisabled = false
             }
             
             do {
@@ -39,7 +42,7 @@ struct SignUpView: View {
                     alertConfig = CustomAlertConfig(message: "A Password is required")
                     return
                 }
-                
+                interactiveDismissDisabled = true
                 isLoading = true
                 try await authenticationService.signUp(email, password: password)
             } catch let error as AuthenticationUtilityError {

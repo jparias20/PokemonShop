@@ -1,21 +1,37 @@
 import Foundation
 import UIKit
 
-final class Pokemon: ObservableObject, Identifiable {
+final class Pokemon: ObservableObject, Identifiable, Equatable, Hashable {
     let id: String
     let name: String
     
-    init(name: String, id: String) {
-        self.name = name
+    var nameFormatted: String { name.capitalized }
+    
+    init(id: String, name: String) {
         self.id = id
+        self.name = name
     }
     
     convenience init?(_ item: PokemonResponse) {
         guard let id: Substring = item.url.split(separator: "/").last else { return nil }
-        self.init(name: item.name, id: "\(id)")
+        self.init(
+            id: "\(id)",
+            name: item.name
+        )
     }
     
-    func fetchImage(service: ImageService) async -> UIImage? {
+    convenience init(_ item: PokemonModel) {
+        self.init(
+            id: item.id,
+            name: item.name
+        )
+    }
+
+    static func == (lhs: Pokemon, rhs: Pokemon) -> Bool { lhs.id == rhs.id }
+
+    func hash(into hasher: inout Hasher) { hasher.combine(id) }
+
+    func fetchImage(service: ImageService) async throws -> UIImage? {
         var folderName: String { "Pokemon_data_folder" }
         var dataName: String { "pokemon_image_\(id)" }
         var request: PokemonImageHTTPRequest {
@@ -24,26 +40,10 @@ final class Pokemon: ObservableObject, Identifiable {
             )
         }
         
-        do {
-            return try await service.fetchImage(
-                folderName: folderName,
-                dataName: dataName,
-                request: request
-            )
-        } catch {
-            return nil
-        }
-    }
-}
-
-extension Pokemon: Equatable {
-    static func == (lhs: Pokemon, rhs: Pokemon) -> Bool {
-        lhs.id == rhs.id
-    }
-}
-
-extension Pokemon: Hashable {
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
+        return try await service.fetchImage(
+            folderName: folderName,
+            dataName: dataName,
+            request: request
+        )
     }
 }
