@@ -1,2 +1,2 @@
 # PokemonShop
-![Image](READMEHelper/terminal_access.png)
+<img src="path/to/image.png" alt="Description" width="400"/>
