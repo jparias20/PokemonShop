@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23231" systemVersion="24A335" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="PokemonCDModel" representedClassName="PokemonCDModel" syncable="YES">
+        <attribute name="id" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="name" attributeType="String"/>
+    </entity>
+</model>

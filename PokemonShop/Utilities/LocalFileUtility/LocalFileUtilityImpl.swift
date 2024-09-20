@@ -1,7 +1,11 @@
 import Foundation
 import LocalFileManagerFramework
 
-final class LocalFileUtilityImpl {}
+final class LocalFileUtilityImpl {
+    static let shared = LocalFileUtilityImpl()
+    
+    private init() {}
+}
 
 extension LocalFileUtilityImpl: LocalFileUtility {
     func fetch(name: String, folderName: String)  async -> Data? {

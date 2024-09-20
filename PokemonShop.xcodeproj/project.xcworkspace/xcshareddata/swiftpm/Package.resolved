@@ -96,8 +96,8 @@
       "kind" : "remoteSourceControl",
       "location" : "git@github.com:jparias20/LocalFileManagerFramework-iOS.git",
       "state" : {
-        "revision" : "35188b97c2f84170b889066c77f0706496855ffd",
-        "version" : "1.1.0"
+        "revision" : "9245bdf9dad4a8c0969519a154a3202e9f791b3a",
+        "version" : "1.2.0"
       }
     },
     {
@@ -114,8 +114,8 @@
       "kind" : "remoteSourceControl",
       "location" : "git@github.com:jparias20/NetworkingFramework.git",
       "state" : {
-        "revision" : "f25ac67db435a9cb389caf76538ed041cedf5331",
-        "version" : "1.0.1"
+        "revision" : "77b3ac21e88d0e402fd72724d53dcf74c1f9d51a",
+        "version" : "1.2.0"
       }
     },
     {

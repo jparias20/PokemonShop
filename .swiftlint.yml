@@ -3,7 +3,8 @@ excluded:
   - docs
   - Documentation
   - Scripts
-  - .github  
+  - .github
+  - Templates
 
 # Rules run by SwiftLint's analyzer, more computationally intensive
 analyzer_rules:

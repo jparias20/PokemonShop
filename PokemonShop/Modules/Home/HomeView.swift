@@ -17,7 +17,7 @@ struct HomeView: View {
                 }
             }
             .navigationTitle("Home")
-            .toolbarTitleDisplayMode(.inline)
+            .navigationBarTitleDisplayMode(.inline)
             .loadingView(isPresented: $isLoading)
             .onAppear { fetchPokemons() }
         }
@@ -79,10 +79,7 @@ private struct PokemonView: View {
     private func fetchImage() {
         Task { @MainActor in
             do {
-                guard let uiImage = try await pokemon.fetchImage(service: imageService) else {
-                    setErrorImage()
-                    return
-                }
+                let uiImage = try await imageService.fetchImage(pokemon)
                 self.image = Image(uiImage: uiImage)
             } catch {
                 setErrorImage()

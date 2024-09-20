@@ -7,17 +7,12 @@ struct FirebaseUtility: AuthenticationUtility {
     private var firestore: Firestore { Firestore.firestore() }
     
     func fetchUser() async throws -> User? {
-        do {
-            guard let currentUser: FirebaseAuth.User = Auth.auth().currentUser else { return nil }
-            guard let email = currentUser.email else { return nil }
+        guard let currentUser: FirebaseAuth.User = Auth.auth().currentUser else { return nil }
+        guard let email = currentUser.email else { throw AuthenticationUtilityError.userNoFound }
 
-//            _ = try await currentUser.getIDTokenResult(forcingRefresh: true)
-            let uid: String = currentUser.uid
-            let name: String? = currentUser.displayName
-            return User(email: email, uid: uid, name: name)
-        } catch {
-            throw AuthenticationUtilityError(firbaseCode: error._code)
-        }
+        let uid: String = currentUser.uid
+        let name: String? = currentUser.displayName
+        return User(email: email, uid: uid, name: name)
     }
 
     func signUp(_ email: String, password: String) async throws -> User {
